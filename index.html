@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Imane Moussa Marou</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Imane Moussa Marou - Software Engineering student passionate about web development, community, and technology.">
+
+        <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+
+        <link rel="icon" href="favicon_io/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" href="favicon_io/favicon-16x16.png" sizes="16x16">
+
+        <link rel="apple-touch-icon" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="favicon_io/android-chrome-192x192.png">
+        <link rel="icon" sizes="512x512" href="favicon_io/android-chrome-512x512.png">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    </head>
+    <body id="top">
+        <div class="sidebar" id="sidebarMenu">
+            <a href="#about" data-key="nav-about">About</a>
+            <a href="#skills" data-key="nav-skills">Skills</a>
+            <a href="#projects" data-key="nav-projects">Projects</a>
+            <a href="#contact" data-key="nav-contact">Contact</a>
+            <div class="sidebar-lang">
+                <button id="langToggle" aria-label="Changer la langue">FR</button>
+            </div>
+        </div>
+        <div id="pageContent">
+            <header>
+                <div id="navbar">
+                    <nav>
+                        <div class="hamburger" onclick="toggleMenu()">
+                            <i class="fa-solid fa-bars" id="hamburger"></i>
+                        </div>
+                        <div class="nav-right">
+                            <div id="darkToggle" aria-label="Toggle dark mode">
+                                <i class="fa-solid fa-moon"></i>
+                            </div>
+                            <div class="button-link">
+                                <a href="https://drive.google.com/file/d/1s65MsZEVtELy0N380xlTYWhbwtXF57ug/view?usp=sharing" target="_blank" class="resume-link" data-key="resume-link">Resume</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div id="hero">
+                    <div class="hero_text">
+                        <h1 data-key="hero-title">Hi, I'm Imane.</h1>
+                        <h3 data-key="hero-desc">Software and web developer.</h3>
+                    </div>
+                    <img src="assets/avatar_imane.png" alt="Imane Moussa Marou's avatar">
+                </div>
+                <i class="fa-solid fa-chevron-down"></i>
+           </header>
+           <main>
+                <section id="about" class="reveal">
+                    <div class="about-text">
+                        <h2 data-key="about-title">About Me</h2>
+                        <p data-key="about-desc">
+                            Hello! I’m Imane, a Software Engineering student at the University of Ottawa.
+                            I’m passionate about technology and always eager to take on new challenges. 
+                            I enjoy connecting with others through community projects and love bringing fresh ideas to life.
+                            Outside of tech, I’m curious about languages, driven by music, and always looking for ways to make a positive impact.
+                        </p>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/about_me.png" alt="Imane Moussa Marou's avatar">   
+                    </div>
+                </section>
+                <section id="skills" class="reveal">
+                    <div class="skills-text">
+                        <h2 data-key="skills-title">My Tool Box <i class="fa-solid fa-code"></i></h2>
+                        <p data-key="skills-desc">
+                            Here are some of the technologies I have worked with:
+                        </p>
+                    </div>
+                    <div class="skills-wrap">
+                        <div class="skill">
+                            <i class="fa-brands fa-python fa-skill"></i>
+                            <h3>Python</h3>
+                       </div>
+                        <div class="skill">
+                            <i class="fa-brands fa-java fa-skill"></i>
+                            <h3>Java</h3>
+                        </div>
+                       <div class="skill">
+                            <i class="fa-brands fa-html5 fa-skill"></i>
+                            <h3>HTML</h3>
+                       </div>
+                       <div class="skill">
+                            <i class="fa-brands fa-css3 fa-skill"></i>
+                            <h3>CSS</h3>
+                       </div>
+                       <div class="skill">
+                            <i class="fa-brands fa-js fa-skill"></i>
+                            <h3>JavaScript</h3>
+                       </div>
+                       <div class="skill">
+                            <i class="fa-brands fa-github fa-skill"></i>
+                            <h3>Github</h3>
+                       </div>
+                       <div class="skill">
+                            <i class="fa-brands fa-git-alt fa-skill"></i>
+                            <h3>Git</h3>
+                       </div>
+                       <div class="skill">
+                            <i class="fa-brands fa-windows fa-skill"></i>
+                            <h3>Windows Suite</h3>
+                       </div>
+                       <div class="skill">
+                            <i class="fa-brands fa-figma fa-skill"></i>
+                            <h3>Figma</h3>
+                       </div>
+                       <div class="skill">
+                            <i class="fa-brands fa-react fa-skill"></i>
+                            <h3>React</h3>
+                        </div>
+                   </div>
+                </section>
+                <section id="projects" class="reveal">
+                    <div class="projects-text">
+                        <h2 data-key="projects-title">Projects</h2>
+                        <p data-key="projects-desc">Here are some of the projects I have worked on:</p>
+                    </div>
+                    <div class="projects-wrapper">
+                        <div class="project-card">
+                            <img src="assets/bzzzstop.png" alt="project1">
+                            <div class="project-content">
+                                <h3>BzzzStop</h3>
+                                <p data-key="bzzzstop-desc">A web app that helps bus riders relax by playing music and alerting them when they’re near their stop using geolocation.</p>
+                                <div class="project-links">
+                                    <a href="https://imanemm.github.io/bzzzstop/" target="_blank" aria-label="View Project 1" data-key="live-website">View live</a>
+                                    <a href="https://github.com/imanemm/bzzzstop" target="_blank" aria-label="View Code for Project 1">Github</a>
+                                </div>
+                                <div class="project-languages">
+                                    <ul>
+                                        <li class="language_html">HTML</li>
+                                        <li class="language_css">CSS</li>
+                                        <li class="language_javascript">JavaScript</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="assets/flappy.png" alt="project2">
+                            <div class="project-content"> 
+                                <h3>Flappy Bird Clone</h3>
+                                <p data-key="flappy-desc">A browser-based game where players control a bird and navigate it through moving pipes.</p>
+                                <div class="project-links">
+                                    <a href="https://imanemm.github.io/flappy-bird-dupe/" target="_blank" aria-label="View Project 1" data-key="live-website">View live</a>
+                                    <a href="https://github.com/imanemm/flappy-bird-dupe" target="_blank" aria-label="View Code for Project 1">Github</a>
+                                </div>
+                                <div class="project-languages">
+                                    <ul>
+                                        <li class="language_python">HTML</li>
+                                        <li class="language_html">JavaScript</li>
+                                        <li class="language_phaser">Phaser</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="assets/studyhub.png" alt="project3">
+                            <div class="project-content"> 
+                                <h3>Study Hub</h3>
+                                <p data-key="studyhub-desc">A marketing website designed to promote a student-focused app for collaborative studying. The site highlights key features, benefits, and calls to action to attract users.</p>
+                                <div class="project-links">
+                                    <a href="https://studyhubseg.github.io/StudyHub/" target="_blank" aria-label="View Project 1" data-key="live-website">View live</a>
+                                    <a href="https://github.com/StudyHubSEG/StudyHub" target="_blank" aria-label="View Code for Project 1">Github</a>
+                                </div>
+                                <div class="project-languages">
+                                    <ul>
+                                        <li class="language_html">HTML</li>
+                                        <li class="language_css">CSS</li>
+                                        <li class="language_javascript">JavaScript</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="assets/idol101.png" alt="project4">
+                            <div class="project-content"> 
+                                <h3>Idol 101</h3>
+                                <p data-key="idol101-desc">A text-based game where players create and manage their own K-pop idol trainee. Players choose positions, entertainment companies, and navigate decisions to debut successfully.</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/imanemm/Idol-101" target="_blank" aria-label="View Code for Project 1">Github</a>
+                                </div>
+                                <div class="project-languages">
+                                    <ul>
+                                        <li class="language_python">Python</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="assets/mww_logo.png" alt="project5">
+                            <div class="project-content"> 
+                                <h3>Momo's Wonderful World</h3>
+                                <p data-key="mww-desc">A retro-themed restaurant website featuring a full menu and an interactive order form. The site combines playful visuals with user-friendly functionality to create a nostalgic dining experience.</p>
+                                <div class="project-links">
+                                    <a href="https://imanemm.github.io/momos_wonderful_world/" target="_blank" aria-label="View Project 1" data-key="live-website">View live</a>
+                                    <a href="https://github.com/imanemm/momos_wonderful_world" target="_blank" aria-label="View Code for Project 1">Github</a>
+                                </div>
+                                <div class="project-languages">
+                                    <ul>
+                                        <li class="language_html">HTML</li>
+                                        <li class="language_css">CSS</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="assets/rps.png" alt="project6">
+                            <div class="project-content"> 
+                                <h3 data-key="rps-title">Rock, Paper, Scissors</h3>
+                                <p data-key="rps-desc">A game where users play against the computer in a classic best-of-five matchup.</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/imanemm/rock_paper_scissors" target="_blank" aria-label="View Code for Project 1">Github</a>
+                                </div>
+                                <div class="project-languages">
+                                    <ul>
+                                        <li class="language_python">Python</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" class="reveal">
+                    <div class="contact-wrap">
+                        <div class="contact-text">
+                            <h2 data-key="contact-title">Contact Me</h2>
+                            <p data-key="contact-desc">I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out!</p>
+                        </div>
+                        <div class="contact-media">
+                            <a href="https://www.linkedin.com/in/imanemm/" target="_blank" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
+                            <a href="https://github.com/imanemm" target="_blank" aria-label="Github Profile"><i class="fa-brands fa-github"></i>GitHub</a>
+                            <a href="mailto:imous061@uottawa.ca" aria-label="Send an email"><i class="fa-solid fa-envelope"></i>Email</a>
+                        </div>
+                    </div>
+                </section>
+           </main>
+           <footer>
+                <div class="footer-button">
+                    <a href="#top" data-key="footer-button">Go back to the top</a>
+                </div>
+               <div class="footer-text">
+                    <p data-key="footer-text">Designed with <i class="fa-solid fa-heart"></i> by Imane Moussa Marou</p>
+               </div>
+           </footer>
+        </div>
+       <script src="script.js"></script>
+    </body>
+</html>
