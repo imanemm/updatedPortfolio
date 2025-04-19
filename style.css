@@ -83,7 +83,7 @@ body.dark-mode .button-link a {
     color: #030303;
 }
 
-body.dark-mode .fa-bars,body.dark-mode .fa-chevron-down,body.dark-mode .fa-envelope,body.dark-mode .fa-github,body.dark-mode .fa-linkedin-in {
+body.dark-mode .fa-bars, body.dark-mode .fa-xmark,body.dark-mode .fa-chevron-down,body.dark-mode .fa-envelope,body.dark-mode .fa-github,body.dark-mode .fa-linkedin-in {
     color: #FFDB89;
 }
 
@@ -180,7 +180,7 @@ nav {
     padding: 10px;
 }
 
-.fa-bars {
+.fa-bars, .fa-xmark {
     font-size: 2rem;
     color: #01244F;
     transition: color 0.3s ease-in-out; 
@@ -581,11 +581,11 @@ footer {
 /* Media Query */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     p {
@@ -616,26 +616,39 @@ footer {
     .hamburger {
         top: 10px;
         left: 10px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 10px;
     }
 
     .nav-right {
-        flex-direction: column;
         flex-wrap: wrap;
         gap: 10px;
         justify-content: center;
     }
 
+    header {
+        min-height: 100vh !important;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+    }
+
     #hero {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         margin: 0;
         padding: 20px;
-        
+    }
+
+    .fa-chevron-down {
+        margin-top: 10% !important;
     }
 
     header img {
-        width: 80%;
+        width: 90%;
         height: auto;
         margin: 0 auto;
         padding: 20px;
@@ -656,7 +669,7 @@ footer {
 
     .about-image {
         width: 100%;
-        height: auto;
+        min-height: 50vh !important;
         padding: 20px;
         margin: 0 auto;
     }

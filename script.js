@@ -1,17 +1,24 @@
 function toggleMenu() {
 
     const sidebar = document.getElementById('sidebarMenu');
-    const hamburger = document.getElementById('hamburger');
+    //const hamburger = document.getElementById('hamburger');
     const pageContent = document.getElementById('pageContent');
   
     const sidebarIsOpen = sidebar.classList.toggle('show');
+    const iconSidebar = document.querySelector("i");
   
     if (sidebarIsOpen) {
       pageContent.classList.add('shift-content');
-      hamburger.style.color = '#F7F1E1';
+      iconSidebar.classList.remove("fa-bars");
+      iconSidebar.classList.add("fa-xmark");
+      iconSidebar.style.color = '#F7F1E1';
+      //hamburger.style.color = '#F7F1E1';
     } else {
       pageContent.classList.remove('shift-content');
-      hamburger.style.color = '#01244F';
+      iconSidebar.classList.remove("fa-xmark");
+      iconSidebar.classList.add("fa-bars");
+      iconSidebar.style.color = '#01244F';
+      //hamburger.style.color = '#01244F';
     }
 }
 
