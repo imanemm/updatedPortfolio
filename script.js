@@ -115,7 +115,7 @@ const traduction = {
     "studyhub-desc" : "Site Web de marketing conçu pour promouvoir une application destinée aux étudiants pour l'étude collaborative.",
     "idol101-desc" : "Jeu textuel dans lequel les joueurs créent et gèrent leur propre apprentie idole de la K-pop. Les joueurs choisissent des positions, des compagnies de divertissement et prennent des décisions pour réussir leurs débuts.",
     "mww-desc" : "Site web d'un restaurant au thème rétro présentant un menu complet et un formulaire de commande interactif.",
-    "pomorodo-desc" : "Application web Pomodoro inspirée de Studio Ghibli avec minuteurs personnalisables, boutons de réinitialisation et de saut.",
+    "pomodoro-desc" : "Application web Pomodoro inspirée de Studio Ghibli avec minuteurs personnalisables, boutons de réinitialisation et de saut.",
     "contact-title" : "Contactez-moi",
     "contact-desc" : "Je suis toujours ouverte à discuter de nouvelles opportunités, projets ou simplement avoir une conversation. N'hésitez pas à me contacter !",
     "footer-button" : "Retourner en haut",
