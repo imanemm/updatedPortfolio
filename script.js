@@ -67,6 +67,7 @@ langToggle.addEventListener('click', () => {
   currentLang = currentLang === 'en' ? 'fr' : 'en';
   langToggle.textContent = currentLang === 'en' ? 'FR' : 'EN';
   updateLanguage(); 
+  startTypingAnimation();
 });
 
 const traduction = {
@@ -151,4 +152,35 @@ function revealOnScroll() {
 }
 
 window.addEventListener("scroll", revealOnScroll);
-window.addEventListener("DOMContentLoaded", revealOnScroll);
+window.addEventListener("DOMContentLoaded", () => {
+  const storedLang = localStorage.getItem("lang");
+  if (storedLang) currentLang = storedLang;
+  revealOnScroll();
+  startTypingAnimation();
+});
+
+const typingTexts = {
+  en: "Software and web Developer </>",
+  fr: "Développeuse logiciel et web </>"
+};
+
+const typingElement = document.getElementById("typing-text");
+let typingIndex = 0;
+let typingTimeout;
+
+const typingSpeed = 100; // Speed in milliseconds
+
+function typeTest(text) {
+  if (typingIndex < text.length) {
+    typingElement.textContent += text.charAt(typingIndex);
+    typingIndex++;
+    typingTimeout = setTimeout(() => typeTest(text), typingSpeed);
+  }
+}
+
+function startTypingAnimation() {
+  const text = typingTexts[currentLang];
+  typingElement.textContent = ""; // Clear the text
+  typingIndex = 0; // Reset the index
+  typeTest(typingTexts[currentLang]);
+}
