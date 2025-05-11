@@ -728,14 +728,20 @@ footer {
     }
 
     .project-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
         width: 100%;
         height: auto;
         margin : 10px;
+        border-radius: 0;
     }
 
     .project-card img {
-        width: 100%;
-        height: auto;
+        display: block !important;
+        max-width: 100%;
+        height: auto !important;
     }
 
     .contact-wrap {
@@ -810,6 +816,29 @@ footer {
 
     #skills {
         min-height: 80vh !important;
+    }
+
+    .skill h3 {
+        font-size: 1.5rem;
+    }
+
+    .skills-wrap {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .skill {
+        flex: 0 1 calc(33.33% - 20px);
+        max-width: calc(33.33% - 20px);
+        height: 150px;
+        padding: 20px;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .contact-wrap {
