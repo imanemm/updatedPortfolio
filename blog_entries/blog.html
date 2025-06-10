@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Devlog | Template</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Imane Moussa Marou - Software Engineering student passionate about web development, community, and technology.">
+
+        <link rel="icon" href="../favicon_io/favicon.ico" type="image/x-icon">
+
+        <link rel="icon" href="../favicon_io/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" href="../favicon_io/favicon-16x16.png" sizes="16x16">
+
+        <link rel="apple-touch-icon" href="../favicon_io/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="../favicon_io/android-chrome-192x192.png">
+        <link rel="icon" sizes="512x512" href="../favicon_io/android-chrome-512x512.png">
+
+        <link rel="stylesheet" type="text/css" href="../blog.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+            
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="sidebar" id="sidebarMenu">
+            <a href="../index.html" data-key="nav-home">Home</a>
+            <a href="../index.html#about" data-key="nav-about">About</a>
+            <a href="../index.html#skills" data-key="nav-skills">Skills</a>
+            <a href="../index.html#projects" data-key="nav-projects">Projects</a>
+            <a href="../index.html#contact" data-key="nav-contact">Contact</a>
+            <div class="sidebar-lang">
+                <button id="langToggle" aria-label="Changer la langue">FR</button>
+            </div>
+        </div>
+        <div id="pageContent">
+            <header>
+                <div id="navbar">
+                    <nav>
+                        <div class="hamburger" onclick="toggleMenu()">
+                            <i class="fa-solid fa-bars" id="hamburger"></i>
+                        </div>
+                        <div class="nav-right">
+                            <div id="darkToggle" aria-label="Toggle dark mode">
+                                <i class="fa-solid fa-moon"></i>
+                            </div>
+                            <div class="button-link">
+                                <a href="../devlog.html">Devlog</a>
+                            </div>
+                            <div class="button-link">
+                                <a href="https://drive.google.com/file/d/1s65MsZEVtELy0N380xlTYWhbwtXF57ug/view?usp=sharing" target="_blank" class="resume-link" data-key="resume-link">Resume</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="article-container">
+                <aside>
+                    <img src="../assets/avatar_imane.png" alt="Imane Moussa Marou" class="avatar">
+                    <p class="author"> by Imane Moussa Marou</p>
+                    <p class="description">Software Engineering student passionate about web development, community, and technology.</p>
+                </aside>
+                <main>
+                    <h1>Headline</h1>
+                    <h2>Secondary Headline</h2>
+                    <div class="article-info">
+                        <p class="min-average">XX min read</p>
+                        <p class="date">Date</p>
+                    </div>
+                    <article>
+                        <p class="intro">This is where the first sentence will be.</p>
+                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium ratione magni. Quia omnis eaque, optio reprehenderit consectetur obcaecati amet alias voluptate vero, minus voluptatem, quis enim iusto vitae inventore aut. Inventore delectus rerum officia magnam debitis ad, vitae eos a id suscipit ex repellendus corrupti? Dolore odit natus ullam.</p>
+                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium ratione magni. Quia omnis eaque, optio reprehenderit consectetur obcaecati amet alias voluptate vero, minus voluptatem, quis enim iusto vitae inventore aut. Inventore delectus rerum officia magnam debitis ad, vitae eos a id suscipit ex repellendus corrupti? Dolore odit natus ullam.</p>
+                        <figure>
+                            <img src="assets/placeholder_image.png" alt="Placeholder Image" class="image">
+                            <figcaption>Image caption goes here</figcaption>
+                        </figure>
+                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium ratione magni. Quia omnis eaque, optio reprehenderit consectetur obcaecati amet alias voluptate vero, minus voluptatem, quis enim iusto vitae inventore aut. Inventore delectus rerum officia magnam debitis ad, vitae eos a id suscipit ex repellendus corrupti? Dolore odit natus ullam.</p>
+                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium ratione magni. Quia omnis eaque, optio reprehenderit consectetur obcaecati amet alias voluptate vero, minus voluptatem, quis enim iusto vitae inventore aut. Inventore delectus rerum officia magnam debitis ad, vitae eos a id suscipit ex repellendus corrupti? Dolore odit natus ullam.</p>
+                        <figure>
+                            <img src="assets/placeholder_image2.png" alt="Placeholder Image 2" class="image">
+                            <figcaption>Another image caption goes here</figcaption>
+                        </figure>
+                        <p class="conclusion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos harum, quas nam voluptatum optio veniam enim voluptas mollitia inventore minus? Modi nulla suscipit animi quod sequi optio voluptatibus, blanditiis repudiandae.</p>
+                    </article>
+                    <section>
+                        <div class="last-modified">
+                            <h3>Last Modified</h3>
+                            <p class="last-modified-date">Date</p>
+                        </div>
+                        <div class="next-article">
+                            <a href="blog2.html" class="next-article-link">
+                                <div class="next-article-info">
+                                    <h3>Next Article</h3>
+                                    <h4>Next Article Title</h4>
+                                    <p class="next-article-description">Brief description of the next article.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </main>
+            </div>
+            <footer>
+                <div class="footer-button">
+                        <a href="#top" data-key="footer-button">Go back to the top</a>
+                    </div>
+                <div class="footer-text">
+                        <p data-key="footer-text">Designed with <i class="fa-solid fa-heart"></i> by Imane Moussa Marou</p>
+                </div>
+            </footer>
+        </div>
+        <script src="../script.js"></script>
+    </body>
+</html>
