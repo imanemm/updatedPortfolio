@@ -107,7 +107,7 @@ const traduction = {
     "hero-title" : "Salut, je suis Imane.",
     "hero-desc" : "Développeuse logiciel et web",
     "about-title" : "À propos de moi",
-    "about-desc" : "Bonjour! Je m’appelle Imane et je suis étudiante en génie logiciel à l’Université d’Ottawa. Passionnée par la technologie, je suis toujours prête à relever de nouveaux défis. J’aime créer des liens avec les autres à travers des projets communautaires et donner vie à des idées nouvelles. En dehors de la tech, je suis curieuse des langues, portée par la musique, et toujours à la recherche de façons de faire une différence positive.",
+    "about-desc" : "Bonjour, je m'appelle Imane et je suis étudiante en génie logiciel à l’Université d’Ottawa. Je suis passionnée par la technologie, la résolution créative de problèmes et le développement de projets innovants. J’aime relever de nouveaux défis à travers des projets personnels, des hackathons ou des initiatives communautaires. En dehors de la tech, la musique me motive, les langues m’intriguent et je cherche toujours des moyens d’avoir un impact positif. Je crois en la création de solutions à la fois utiles et porteuses de sens.",
     "skills-title" : 'Ma Boite à outils <i class="fa-solid fa-code"></i>',
     "skills-desc" : "Voici certaines des technologies que j’utilise :",
     "projects-title" : "Projets",
