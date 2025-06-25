@@ -80,7 +80,7 @@ const traduction = {
     "hero-title" : "Hi, I'm Imane.",
     "hero-desc" : "Software and web developer",
     "about-title" : "About Me",
-    "about-desc" : " Hello! I’m Imane, a Software Engineering student at the University of Ottawa. I’m passionate about technology and always eager to take on new challenges. I enjoy connecting with others through community projects and love bringing fresh ideas to life. Outside of tech, I’m curious about languages, driven by music, and always looking for ways to make a positive impact.",
+    "about-desc" : "Hello! I’m Imane, a Software Engineering student at the University of Ottawa. I’m passionate about technology, creative problem solving, and bringing fresh ideas to life through code. I enjoy exploring new challenges, whether it’s through personal projects, hackathons, or community initiatives.Outside of tech, I’m driven by music, curious about languages, and always looking for ways to make a positive impact. I believe in building things that are not only functional but meaningful.",
     "skills-title" : 'My Tool Box <i class="fa-solid fa-code"></i>',
     "skills-desc" : "Here are some of the technologies I work with:",
     "projects-title" : "Projects",
