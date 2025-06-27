@@ -453,26 +453,32 @@ ul li {
   }
 
   .article-container {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 0;
+    flex-direction: column-reverse;
+    min-height: unset;
   }
 
   aside {
+    position: static;
     width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    height: auto;
+    padding: 2rem 1rem;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    text-align: left;
   }
 
   aside img {
-    width: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
   }
 
   main {
-    width: 100%;
+    margin-top: 4rem;
+    width: 90%;
     padding: 1rem;
-    gap: 1rem;
   }
 
   h1 {
@@ -484,8 +490,8 @@ ul li {
   }
 
   .article-info {
-    gap: 1rem;
     flex-direction: column;
+    gap: 0.5rem;
     align-items: flex-start;
   }
 
